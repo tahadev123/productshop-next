@@ -1,0 +1,99 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.error {
+    text-align: right !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+    width: 95%;
+    background-color: #FFAAAA;
+    padding: 10px;
+    border-radius: 15px;
+    color: #FF0000;
+}
+
+.container h1 {
+    position: absolute;
+    top: 25px;
+    font-size: 31px;
+}
+
+.registerForm, .loginForm {
+    width: 408px;
+    height: 525px;
+    background-color: #fff;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    border-radius: 40px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm {
+    height: 465px;
+}
+
+.registerForm img, .loginForm img {
+    width: 80px;
+    margin: 20px auto 0 auto;
+}
+
+.registerForm p, .loginForm p {
+    font-size: 24px;
+    line-height: 37.5px;
+    margin-top: 17px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.registerForm form, .loginForm form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputForm {
+    height: 31px;
+    width: 390px;
+    border-radius: 15px;
+    border: none;
+    background-color: #F2F2F2;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: 'yekan-bakh';
+    text-align: right;
+    font-size: 14px;
+}
+
+.inputForm:focus {
+    outline: none;
+}
+
+.buttonForm {
+    margin-top: 35px;
+    width: 408px;
+    height: 48px;
+    border: none;
+    border-radius: 15px;
+    background-color: #55A3F0;
+    color: #fff;
+    font-family: 'yekan-bakh';
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.container a {
+    text-align: right;
+    color: #55A3F0;
+    text-decoration: none;
+    line-height: 31.25px;
+    margin-top: 17px;
+    font-size: 15px;
+}

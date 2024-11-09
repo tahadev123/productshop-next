@@ -1,0 +1,18 @@
+@font-face {
+  font-family: yekan-bakh;
+  src: url(/fonts/YekanBakh-Regular/YekanBakh-Regular.woff) format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: yekan-bakh;
+  src: url(/fonts/YekanBakh-Bold/YekanBakh-Bold.woff) format("woff");
+  font-weight: 700;
+}
+
+:root {
+  background-color: #F7F8F8;
+  padding: 0 150px;
+  font-family: yekan-bakh;
+  box-sizing: border-box;
+}

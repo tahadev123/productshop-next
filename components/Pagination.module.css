@@ -1,0 +1,25 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+}
+
+.pagination span {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8D8D8D80;
+    font-size: 17px;
+    border: 2px solid #8D8D8D80;
+    border-radius: 50%;
+    margin: 30px 5px;
+    cursor: pointer;
+}
+
+.active {
+    border: 2px solid #55A3F0 !important;
+    background-color: #55A3F0;
+    color: #fff !important;
+}

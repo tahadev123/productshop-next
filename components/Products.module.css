@@ -1,0 +1,57 @@
+.productTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 30px;
+    direction: rtl;
+    overflow: hidden;
+    box-shadow: 0 0 10px #e4e4e4;
+    height: 65vh;
+    table-layout: fixed;
+}
+
+.productTable th, .productTable td {
+    padding: 15px 45px 15px 15px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    height: auto;
+}
+
+.productTable thead {
+    background-color: #f2f2f2;
+}
+
+.productTable tbody {
+    height: 100%;
+    display: block;
+}
+
+.productTable thead, .productTable tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.productTable th {
+    font-weight: bold;
+    height: 45px;
+}
+
+.productTable td {
+    height: 30px;
+}
+
+.deleteBtn, .editBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

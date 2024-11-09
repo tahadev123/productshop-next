@@ -1,0 +1,105 @@
+.header {
+    width: 100%;
+    height: 50px;
+    margin-top: 28px;
+    border-radius: 16px;
+    background-color: #fff;
+    border: 1px #e4e4e4 solid;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.searchBox {
+    width: 85%;
+    border-left: 2px solid #e4e4e4;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.searchBox img {
+    margin: 0 20px 0 10px;
+}
+
+.searchBox input {
+    text-align: right;
+    width: 90%;
+    border: none;
+    padding: 15px 0;
+    font-size: 16px;
+    color: #00000099;
+    font-family: yekan-bakh;
+}
+
+.searchBox input:focus {
+    outline: none;
+}
+
+.profile {
+    width: 15%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.profileImg {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px #e4e4e4 solid;
+    margin: 0 15px 0 10px;
+}
+
+.profile p {
+    text-align: right;
+    margin: 0;
+    font-size: 14px;
+}
+
+.profile p:first-child {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.removeUser {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    top: -23px;
+    right: -15px;
+    cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+    .profile {
+        width: 18%;
+    }
+
+    .searchBox {
+        width: 82%;
+    }
+}
+
+@media (max-width: 1130px) {
+    .profile {
+        width: 24%;
+    }
+
+    .searchBox {
+        width: 76%;
+    }
+}
+
+@media (max-width: 950px) {
+    .profile {
+        display: none;
+    }
+
+    .searchBox {
+        width: 100%;
+        border: none;
+    }
+}

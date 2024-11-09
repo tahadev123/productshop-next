@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.container img {
+    margin-left: 10px;
+}
+
+.container h3 {
+    font-size: 24px;
+    color: #282828;
+}
+
+.addProductBtn {
+    width: 132px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #55A3F0;
+    color: #fff;
+    font-family: yekan-bakh;
+    font-size: 14px;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.addProductBtn:hover {
+    background-color: #325e89;
+    box-shadow: #55A3F0 0 0 13px;
+}

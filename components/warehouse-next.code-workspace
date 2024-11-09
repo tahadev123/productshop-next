@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../warehouse-api"
+		}
+	],
+	"settings": {}
+}
