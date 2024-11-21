@@ -19,7 +19,7 @@ Paste this code in the terminal of your system👇
 The project will open for you on port 3000
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.✔
 
-Of course, before that, to run the project api, you must download the [api file of this project](https://github.com/tahadev123/api-productshop) from my GitHub, like the main project file, and enter the following command in the terminal.👇
+And then, before that, to run the project api, you must download the [api file of this project](https://github.com/tahadev123/api-productshop) from my GitHub, like the main project file, and enter the following command in the terminal.👇
 ```
   npm start
 ```
